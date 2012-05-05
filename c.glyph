@@ -1,0 +1,32 @@
+
+StartChar: c
+Encoding: 52 99 53
+AltUni2: 000441.ffffffff.0
+Width: 295
+GlyphClass: 2
+Flags: HMW
+HStem: 0 21G 433 138<134.55 209.05>
+VStem: 19.0508 105
+LayerCount: 2
+Fore
+SplineSet
+215 113 m 4
+ 226 113 229 119 248 119 c 4
+ 253 119 258 118 259 114 c 5
+ 251 81 191 2 134 -12 c 5
+ 58.001 9 20.001 248 20.001 372 c 5
+ 20.001 372 45.001 438 55.001 458 c 5
+ 64.001 464 77.001 487 131 533 c 5
+ 146 552 164 559 184 559 c 4
+ 236 559 295 505 306 460 c 5
+ 306 452 300 446 285 444 c 5
+ 275 436 255 424 247 414 c 5
+ 242 403 235 387 214 387 c 6
+ 202 387 l 6
+ 165 387 171 421 142 421 c 4
+ 129.001 421 125.001 408 125.001 389 c 4
+ 125.001 358 135 310 143 268 c 4
+ 152 220 171 113 215 113 c 4
+EndSplineSet
+Kerns2: 61 -75 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  58 -70 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+EndChar

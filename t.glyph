@@ -1,0 +1,44 @@
+
+StartChar: t
+Encoding: 69 116 70
+Width: 355
+GlyphClass: 2
+Flags: MW
+HStem: 20 21G<128 157> 72 47<234.5 236.5 208.5 237> 314 7 417 90<193 206 152.5 212 152.5 245> 562 20G
+VStem: 49.999 114.001 276 90<385 500.5>
+LayerCount: 2
+Fore
+SplineSet
+264 125 m 0
+ 268 125 270 123 270 118 c 0
+ 270 106 252 81 237 72 c 1
+ 232 72 204 44 200 44 c 1
+ 189 27 168 20 146 20 c 0
+ 110 20 71.999 38 71.999 72 c 1
+ 50.999 155 49.999 249 49.999 360 c 1
+ 50.999 364 49.999 369 49.999 373 c 0
+ 49.999 402 10.999 437 -10.001 448 c 1
+ 16.999 510 74.999 542 126 582 c 1
+ 143 576 139 507 166 507 c 0
+ 246 507 266 522 325 522 c 0
+ 365 522 366 519 366 482 c 0
+ 366 418 311 390 285 350 c 1
+ 282 348 270 333 261 333 c 0
+ 259 333 257 334 255 337 c 1
+ 260 351 276 376 276 394 c 0
+ 276 406 269 417 245 417 c 2
+ 212 417 l 2
+ 174 417 160 410 160 364 c 0
+ 160 332 168 295 170 287 c 1
+ 166 272 164 255 164 237 c 0
+ 164 181 185 119 232 119 c 0
+ 241 119 257 125 264 125 c 0
+230 314 m 0
+ 229 314 228 313 227 314 c 1
+ 227 317 240 321 240 321 c 1
+ 239 319 234 314 230 314 c 0
+EndSplineSet
+Kerns2: 76 -7 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  1 100 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Substitution2: "'medi' Medial Forms in Latin lookup 3 subtable" t.med
+Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" t.med
+EndChar

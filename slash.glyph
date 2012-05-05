@@ -1,0 +1,22 @@
+
+StartChar: slash
+Encoding: 7 47 8
+Width: 408
+GlyphClass: 2
+Flags: MW
+HStem: -28 21G<52 64.5>
+LayerCount: 2
+Fore
+SplineSet
+109 130 m 0
+ 87 79 98 64 78 -8 c 0
+ 74 -22 68 -28 61 -28 c 0
+ 43 -28 20 10 20 31 c 0
+ 20 85 82 168 99 205 c 1
+ 114 235 284 577 284 594 c 0
+ 284 608 317 690 343 750 c 0
+ 345 755 350 764 356 762 c 0
+ 381 755 388 732 388 705 c 0
+ 388 624 208 359 109 130 c 0
+EndSplineSet
+EndChar
