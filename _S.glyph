@@ -1,7 +1,7 @@
 
 StartChar: S
-Encoding: 40 83 41
-AltUni2: 00054f.ffffffff.0 000405.ffffffff.0
+Encoding: 83 83 41
+AltUni2: 000405.ffffffff.0 00054f.ffffffff.0
 Width: 551
 GlyphClass: 2
 Flags: MW

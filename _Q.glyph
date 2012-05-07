@@ -1,9 +1,9 @@
 
 StartChar: Q
-Encoding: 38 81 39
+Encoding: 81 81 39
 Width: 630
 GlyphClass: 2
-Flags: HMWO
+Flags: HMW
 HStem: -20 63 -8 21G<259.218 290.178> 604 91
 VStem: 79.4805 144.48 134.521 86.859 433 77<358.5 368>
 LayerCount: 2
@@ -38,5 +38,5 @@ SplineSet
  341.779 86 342.641 144 352.96 144 c 1
  352.96 144 354.681 135 354.681 131 c 0
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar

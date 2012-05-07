@@ -1,7 +1,7 @@
 
 StartChar: I
-Encoding: 30 73 31
-AltUni2: 0004c0.ffffffff.0 000406.ffffffff.0 000399.ffffffff.0
+Encoding: 73 73 31
+AltUni2: 000399.ffffffff.0 000406.ffffffff.0 0004c0.ffffffff.0
 Width: 217
 GlyphClass: 2
 Flags: MW

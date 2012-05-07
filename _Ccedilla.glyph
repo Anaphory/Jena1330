@@ -1,6 +1,6 @@
 
 StartChar: Ccedilla
-Encoding: 90 199 89
+Encoding: 199 199 89
 Width: 334
 GlyphClass: 2
 Flags: W
@@ -38,5 +38,5 @@ SplineSet
  111.959 -181.663 100.605 -167.617 100.605 -149.533 c 1
  106.229 -114.849 154.912 -70.4985 181.578 -44.4892 c 1
 EndSplineSet
-Validated: 8912897
+Validated: 1
 EndChar

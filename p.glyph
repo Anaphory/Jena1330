@@ -1,7 +1,7 @@
 
 StartChar: p
-Encoding: 65 112 66
-AltUni2: 000440.ffffffff.0 0003f1.ffffffff.0 0003c1.ffffffff.0
+Encoding: 112 112 66
+AltUni2: 0003c1.ffffffff.0 0003f1.ffffffff.0 000440.ffffffff.0
 Width: 402
 GlyphClass: 2
 Flags: MW

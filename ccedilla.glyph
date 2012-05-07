@@ -1,9 +1,9 @@
 
 StartChar: ccedilla
-Encoding: 114 231 113
+Encoding: 231 231 113
 Width: 295
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: 433 138<133.69 209.05>
 VStem: 19.0508 105<260.381 432.181>
 LayerCount: 2
@@ -40,5 +40,5 @@ SplineSet
  124.051 370 134.11 322.011 142.05 280 c 0
  151.119 232.013 170.05 125 214.05 125 c 0
 EndSplineSet
-Validated: 8912897
+Validated: 1
 EndChar

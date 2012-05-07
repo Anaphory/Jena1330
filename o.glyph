@@ -1,7 +1,7 @@
 
 StartChar: o
-Encoding: 64 111 65
-AltUni2: 000585.ffffffff.0 00043e.ffffffff.0 0003bf.ffffffff.0 0000ba.ffffffff.0
+Encoding: 111 111 65
+AltUni2: 0000ba.ffffffff.0 0003bf.ffffffff.0 00043e.ffffffff.0 000585.ffffffff.0
 Width: 364
 GlyphClass: 2
 Flags: MW
