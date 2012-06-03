@@ -1,6 +1,6 @@
 
 StartChar: uring
-Encoding: 259 367 136
+Encoding: 260 367 136
 Width: 452
 GlyphClass: 2
 Flags: MW
@@ -61,4 +61,5 @@ SplineSet
  -2.6582 470 51.3408 530 90.3408 546 c 1
  164.342 533 169.342 390 169.342 277 c 2
 EndSplineSet
+Validated: 33
 EndChar

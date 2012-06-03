@@ -1,6 +1,6 @@
 
 StartChar: dotlessi
-Encoding: 17 305 131
+Encoding: 257 305 131
 Width: 277
 GlyphClass: 2
 Flags: MW
@@ -22,4 +22,5 @@ SplineSet
  77 308 l 2
  77 342 42 419 20 446 c 1
 EndSplineSet
+Validated: 1
 EndChar

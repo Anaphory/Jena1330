@@ -1,6 +1,6 @@
 
 StartChar: figuredash
-Encoding: 272 8210 151
+Encoding: 275 8210 151
 Width: 347
 GlyphClass: 2
 Flags: MW
@@ -19,4 +19,5 @@ SplineSet
  340.333 285 329.926 207.691 285.166 202.5 c 1
  225.999 203.5 l 2
 EndSplineSet
+Validated: 33
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: w.init
-Encoding: 283 -1 165
+Encoding: 287 -1 165
 Width: 808
 Flags: W
 HStem: 7 21G<519.167 532.167> 487 111<-78.833 54.667 -66.333 54.667> 538 21G<156.667 156.667>
@@ -44,4 +44,5 @@ SplineSet
  595.667 125 599.667 121 603.667 121 c 1
  627.667 133 647.667 195 647.667 230 c 0
 EndSplineSet
+Validated: 1
 EndChar

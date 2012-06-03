@@ -1,6 +1,6 @@
 
 StartChar: uni0326
-Encoding: 268 806 147
+Encoding: 271 806 147
 Width: 200
 GlyphClass: 2
 Flags: MW
@@ -19,4 +19,5 @@ SplineSet
  180 39 136 -21 111 -46 c 0
  99 -58 82 -90 66 -95 c 1
 EndSplineSet
+Validated: 1
 EndChar

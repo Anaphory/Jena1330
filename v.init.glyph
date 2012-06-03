@@ -1,6 +1,6 @@
 
 StartChar: v.init
-Encoding: 282 -1 164
+Encoding: 286 -1 164
 Width: 651
 Flags: W
 HStem: -27 141<404 471> 525 20G<524.5 540.5>
@@ -35,4 +35,5 @@ SplineSet
  503 39 473 29 462 6 c 1
  450 -7 427 -27 404 -27 c 1
 EndSplineSet
+Validated: 1
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: dotaccent
-Encoding: 1 729 139
+Encoding: 263 729 139
 Width: 221
 GlyphClass: 2
 Flags: MW
@@ -17,4 +17,5 @@ SplineSet
  91 206 118 177 137 144 c 1
  106 117 74 76 32 60 c 1
 EndSplineSet
+Validated: 1
 EndChar

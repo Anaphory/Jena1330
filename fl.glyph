@@ -1,6 +1,6 @@
 
 StartChar: fl
-Encoding: 3 64258 163
+Encoding: 285 64258 163
 Width: 538
 VWidth: 0
 Flags: W
@@ -51,6 +51,7 @@ SplineSet
  334.815 503 347.815 509 358.815 509 c 1,100,-1
  366.861 507.817 373.125 506.41 378 504.765 c 1,78,-1
 EndSplineSet
+Validated: 33
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f l
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f l
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f.med l

@@ -1,6 +1,6 @@
 
 StartChar: i.var
-Encoding: 281 -1 162
+Encoding: 284 -1 162
 Width: 212
 GlyphClass: 2
 Flags: MW
@@ -30,4 +30,5 @@ SplineSet
  50.6494 320.997 l 2
  50.6494 354.997 15.6494 431.997 -6.35059 458.997 c 1
 EndSplineSet
+Validated: 33
 EndChar

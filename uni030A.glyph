@@ -1,6 +1,6 @@
 
 StartChar: uni030A
-Encoding: 266 778 145
+Encoding: 269 778 145
 Width: 218
 GlyphClass: 4
 Flags: MW
@@ -29,4 +29,5 @@ SplineSet
  145 663.276 101.286 727.287 76.3057 730.409 c 1
  76.3057 688.256 105.969 585.214 129.388 585.214 c 0
 EndSplineSet
+Validated: 33
 EndChar

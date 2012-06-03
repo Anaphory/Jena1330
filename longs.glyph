@@ -1,6 +1,6 @@
 
 StartChar: longs
-Encoding: 260 383 137
+Encoding: 261 383 137
 Width: 245
 GlyphClass: 2
 Flags: MW
@@ -28,6 +28,7 @@ SplineSet
  -3.25684 515 16.7432 537 26.7432 545 c 0
  97.7422 598 156.742 682 251.742 757 c 0xe0
 EndSplineSet
+Validated: 1
 Kerns2: 70 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" s
 EndChar

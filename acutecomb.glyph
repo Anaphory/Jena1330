@@ -1,7 +1,7 @@
 
 StartChar: acutecomb
-Encoding: 263 769 142
-AltUni2: 000341.ffffffff.0
+Encoding: 266 769 142
+AltUni2: 000341.ffffffff.0 000341.ffffffff.0 000341.ffffffff.0
 Width: 143
 GlyphClass: 2
 Flags: MW
@@ -21,4 +21,5 @@ SplineSet
  90 751 92 751 109 743 c 0
  119 738 119 732 118 725 c 1
 EndSplineSet
+Validated: 1
 EndChar

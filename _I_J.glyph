@@ -1,6 +1,6 @@
 
 StartChar: IJ
-Encoding: 257 306 132
+Encoding: 258 306 132
 Width: 651
 GlyphClass: 2
 Flags: MW
@@ -61,4 +61,5 @@ SplineSet
  426 771 428 771 445 762 c 0
  455 757 454 759 454 752 c 0xfa
 EndSplineSet
+Validated: 1
 EndChar

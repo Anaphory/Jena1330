@@ -1,6 +1,6 @@
 
 StartChar: g.med
-Encoding: 276 -1 157
+Encoding: 279 -1 157
 Width: 459
 GlyphClass: 2
 Flags: MW
@@ -64,5 +64,6 @@ SplineSet
  163.633 -83 209.633 -114 243.633 -114 c 1
  256.633 -124 275.633 -130 293.633 -130 c 0
 EndSplineSet
+Validated: 1
 Kerns2: 65 -54 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: ring
-Encoding: 9 730 140
+Encoding: 264 730 140
 Width: 214
 GlyphClass: 2
 Flags: MW
@@ -29,4 +29,5 @@ SplineSet
  161 172 117 236 92 239 c 1
  92 197 122 94 145 94 c 0
 EndSplineSet
+Validated: 1
 EndChar

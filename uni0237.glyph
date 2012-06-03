@@ -1,6 +1,6 @@
 
 StartChar: uni0237
-Encoding: 261 567 138
+Encoding: 262 567 138
 Width: 289
 GlyphClass: 2
 Flags: MW
@@ -22,4 +22,5 @@ SplineSet
  171 123 l 2
  171 245 148 391 92 446 c 1
 EndSplineSet
+Validated: 1
 EndChar

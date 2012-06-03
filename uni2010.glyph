@@ -1,9 +1,10 @@
 
 StartChar: uni2010
-Encoding: 270 8208 149
+Encoding: 273 8208 149
 Width: 181
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 146.001 267.125
 LayerCount: 2
 Fore
 SplineSet
