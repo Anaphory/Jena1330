@@ -1,11 +1,11 @@
 
 StartChar: d
-Encoding: 100 100 54
+Encoding: 100 100 52
 Width: 380
 GlyphClass: 2
-Flags: MW
-HStem: -14 136<161.224 240.224>
-VStem: 25.2236 118 266.224 107
+Flags: W
+HStem: -14 136<161.224 229.224>
+VStem: 25.2236 118<250.486 389.355> 266.224 107<171.474 341.492>
 LayerCount: 2
 Fore
 SplineSet
@@ -28,5 +28,5 @@ SplineSet
  180.224 768 190.224 758 191.224 753 c 1
  260.224 629 373.224 458 373.224 302 c 0
 EndSplineSet
-Kerns2: 55 -100 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 53 -100 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

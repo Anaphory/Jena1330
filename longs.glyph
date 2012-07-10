@@ -1,9 +1,8 @@
 
 StartChar: longs
-Encoding: 261 383 137
+Encoding: 27 383 154
 Width: 245
-GlyphClass: 2
-Flags: MW
+Flags: W
 HStem: -13 21G<111.242 123.742 123.742 134.742> 587 182<278.242 343.742>
 VStem: -3.25684 179.999 56.7432 115.999 82.7432 135.999
 LayerCount: 2
@@ -28,7 +27,4 @@ SplineSet
  -3.25684 515 16.7432 537 26.7432 545 c 0
  97.7422 598 156.742 682 251.742 757 c 0xe0
 EndSplineSet
-Validated: 1
-Kerns2: 70 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
-Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" s
 EndChar

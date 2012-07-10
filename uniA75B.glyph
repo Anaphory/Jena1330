@@ -1,9 +1,8 @@
 
 StartChar: uniA75B
-Encoding: 274 42843 155
+Encoding: 16 42843 158
 Width: 259
-GlyphClass: 2
-Flags: MW
+Flags: W
 HStem: 5 21G<123.5 158> 449 140<60 111>
 VStem: 148 103<334.5 449>
 LayerCount: 2

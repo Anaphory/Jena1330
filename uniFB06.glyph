@@ -1,9 +1,8 @@
 
 StartChar: uniFB06
-Encoding: 278 64262 156
+Encoding: 30 64262 142
 Width: 626
-GlyphClass: 3
-Flags: MW
+Flags: W
 HStem: -13 21G<111.5 124 124 135 399 428> 39 47<505.5 507.5 479.5 508> 281 7 384 90<464 477 431.104 483 431.104 516>
 VStem: -3.25684 179.999 56.7432 115.999 82.7432 135.999 320.999 114.001 547 90<352 467.5>
 LayerCount: 2
@@ -56,8 +55,4 @@ SplineSet
  -3 515 17 537 27 545 c 0
  98 598 157 682 252 757 c 0
 EndSplineSet
-Validated: 1
-Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" uniFB06.med
-Substitution2: "'medi' Medial Forms in Latin lookup 3 subtable" uniFB06.med
-Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs t
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: b
-Encoding: 98 98 52
+Encoding: 98 98 50
 Width: 431
 GlyphClass: 2
 Flags: MW
@@ -40,5 +40,5 @@ SplineSet
  203.631 694 204.631 651 204.631 642 c 2
  204.631 641 l 2xfa
 EndSplineSet
-Kerns2: 65 -100 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  55 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 63 -100 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  53 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

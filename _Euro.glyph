@@ -1,6 +1,6 @@
 
 StartChar: Euro
-Encoding: 128 8364 169
+Encoding: 32 8364 163
 Width: 297
 Flags: W
 HStem: -47 21G<192.947 228.947> 692 41G<218 272.5 445.5 453.5> 692 7<460.903 466.897>
@@ -51,5 +51,4 @@ SplineSet
  463.447 692 460.447 695 460.447 697 c 0
  461.447 699 459.447 699 460.447 699 c 0xb8
 EndSplineSet
-Validated: 33
 EndChar

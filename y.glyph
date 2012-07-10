@@ -1,6 +1,6 @@
 
 StartChar: y
-Encoding: 121 121 75
+Encoding: 121 121 73
 AltUni2: 000443.ffffffff.0
 Width: 418
 GlyphClass: 2
@@ -50,5 +50,5 @@ SplineSet
  334.666 432 348.666 412 359.666 412 c 1
  359.666 413 l 1
 EndSplineSet
-Kerns2: 70 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: z
-Encoding: 122 122 76
+Encoding: 122 122 74
 Width: 293
 GlyphClass: 2
 Flags: MW
@@ -40,5 +40,5 @@ SplineSet
  237.447 299 279.447 320 279.447 288 c 0
  279.447 263 249.447 198 236.447 198 c 1
 EndSplineSet
-Kerns2: 72 54 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 70 54 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

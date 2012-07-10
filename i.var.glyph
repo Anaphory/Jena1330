@@ -1,9 +1,8 @@
 
 StartChar: i.var
-Encoding: 284 -1 162
+Encoding: 96 -1 164
 Width: 212
-GlyphClass: 2
-Flags: MW
+Flags: W
 HStem: 0 21G 527 20G 689.004 45.422
 VStem: 50.6504 117
 LayerCount: 2
@@ -30,5 +29,4 @@ SplineSet
  50.6494 320.997 l 2
  50.6494 354.997 15.6494 431.997 -6.35059 458.997 c 1
 EndSplineSet
-Validated: 33
 EndChar

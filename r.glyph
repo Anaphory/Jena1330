@@ -1,17 +1,17 @@
 
 StartChar: r
-Encoding: 114 114 68
+Encoding: 114 114 66
 Width: 326
 GlyphClass: 2
-Flags: HMW
-HStem: -14 21G<117 130> 540 20G<74.5 117.5>
-VStem: 2 171 65 108
+Flags: W
+HStem: -14 21G<117 140> 540 20G<74.5 117.5 267 284 390 392.5>
+VStem: 2 171<414.353 494.473> 65 108<134.287 331>
 LayerCount: 2
 Fore
 SplineSet
 100 560 m 0xe0
  135 560 173 499 173 466 c 2
- 173 463 l 1
+ 173 463 l 1xe0
  180 441 182 417 182 392 c 0
  182 340 173 283 173 232 c 0
  173 190 179 152 203 123 c 1
@@ -35,6 +35,6 @@ SplineSet
  248 382 244 385 244 390 c 1
  236 403 188 437 188 448 c 1
 EndSplineSet
-Kerns2: 64 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  70 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 62 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  66 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 Substitution2: "Single Substitution lookup 0 subtable" uniA75B
 EndChar

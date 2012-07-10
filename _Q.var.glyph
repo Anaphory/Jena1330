@@ -1,9 +1,8 @@
 
 StartChar: Q.var
-Encoding: 283 -1 161
+Encoding: 223 -1 156
 Width: 630
-GlyphClass: 2
-Flags: MW
+Flags: W
 HStem: -20 63 -8 94<229 313.5> 675 20G
 VStem: 20 168<492 519.5> 84 101<127.5 376.5> 221 39<534 604> 253 29<180.5 255> 433 77<358.5 368>
 LayerCount: 2
@@ -42,5 +41,4 @@ SplineSet
  325 86 326 144 338 144 c 1
  338 144 340 135 340 131 c 0
 EndSplineSet
-Validated: 1
 EndChar

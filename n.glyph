@@ -1,12 +1,12 @@
 
 StartChar: n
-Encoding: 110 110 64
+Encoding: 110 110 62
 AltUni2: 000578.ffffffff.0 000578.ffffffff.0 000578.ffffffff.0
 Width: 456
 GlyphClass: 2
-Flags: HMW
-HStem: -11 21G<121.999 138.999 121.999 121.999> 551 20G
-VStem: -10.0009 8<450.5 484.5> 58.9991 114 303.999 102
+Flags: W
+HStem: -11 21G<93.9995 158.231 361.5 392.5> 551 20G<70.999 102.499 287 323.5>
+VStem: -10.001 8.00002<448.782 484.5> 58.999 114.001<104.868 394.577> 304 102<143.021 380.478>
 LayerCount: 2
 Fore
 SplineSet
@@ -43,5 +43,5 @@ SplineSet
  3.99902 448 7.99902 451 7.99902 453 c 1
 EndSplineSet
 Validated: 1
-Kerns2: 51 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 49 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar

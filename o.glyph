@@ -1,7 +1,7 @@
 
 StartChar: o
-Encoding: 111 111 65
-AltUni2: 0000ba.ffffffff.0 0003bf.ffffffff.0 00043e.ffffffff.0 000585.ffffffff.0
+Encoding: 111 111 63
+AltUni2: 000585.ffffffff.0 00043e.ffffffff.0 0003bf.ffffffff.0 0000ba.ffffffff.0
 Width: 364
 GlyphClass: 2
 Flags: MW
@@ -28,5 +28,5 @@ SplineSet
  236.891 347 188.892 455 150.892 455 c 1
  150.892 455 132.892 402 132.892 371 c 0
 EndSplineSet
-Kerns2: 53 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 51 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
 EndChar
