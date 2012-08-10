@@ -11,13 +11,8 @@ fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Reencode("AdobeStandardEncoding")
 #     Generate a tfm file
 #     Add composite (mark to base) information to the afm file
 
-#mv work/Jena1330.tfm work/Jena1330_noligs.tfm
-#tftopl work/Jena1330_noligs.tfm > work/Jena1330_noligs.pl
-#perl -lne '/^\(LIGTABLE/ .. /^\s*\)\s*$/ or print' < work/Jena1330_noligs.pl | tee work/Jena1330.pl
+tftopl work/Jena1330.tfm work/Jena1330.pl
 
-#./mkligtable Jena1330.sfdir | tee -a work/Jena1330.pl
-
-#pltotf work/Jena1330.pl > work/Jena1330.tfm
 cp jena.tex work/jena.tex
 cp II3 work/II3
 
