@@ -1,6 +1,6 @@
 
 StartChar: f.med
-Encoding: 18 -1 162
+Encoding: 102 -1 162
 Width: 289
 Flags: W
 HStem: -14 21G<94.4986 129.499> 384 124<248 318 248 248> 561 21G 732 20G
@@ -35,4 +35,5 @@ SplineSet
  180 637 175 635 174 628 c 0
  170 610 170 508 170 508 c 1
 EndSplineSet
+Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" f
 EndChar

@@ -1,6 +1,6 @@
 
 StartChar: t
-Encoding: 116 116 68
+Encoding: 17 116 68
 Width: 355
 GlyphClass: 2
 Flags: MW
@@ -39,6 +39,4 @@ SplineSet
  239 319 234 314 230 314 c 0
 EndSplineSet
 Kerns2: 74 -7 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
-Substitution2: "'medi' Medial Forms in Latin lookup 3 subtable" t.med
-Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" t.med
 EndChar

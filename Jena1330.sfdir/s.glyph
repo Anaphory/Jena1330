@@ -1,6 +1,6 @@
 
 StartChar: s
-Encoding: 115 115 67
+Encoding: 27 115 67
 Width: 343
 GlyphClass: 2
 Flags: MW
@@ -42,6 +42,4 @@ SplineSet
  120.482 417 126.482 370 115.482 348 c 1
  115.482 338 153.481 330 186.481 330 c 0
 EndSplineSet
-Substitution2: "'medi' Medial Forms in Latin lookup 3 subtable" longs
-Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" longs
 EndChar

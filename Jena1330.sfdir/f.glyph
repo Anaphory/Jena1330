@@ -1,6 +1,6 @@
 
 StartChar: f
-Encoding: 102 102 54
+Encoding: 18 102 54
 AltUni2: 000584.ffffffff.0
 Width: 386
 GlyphClass: 2
@@ -40,6 +40,4 @@ SplineSet
  46.8164 140 47.8164 146 47.8164 152 c 2
  47.8164 298 l 2
 EndSplineSet
-Substitution2: "'medi' Medial Forms in Latin lookup 3 subtable" f.med
-Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" f.med
 EndChar
