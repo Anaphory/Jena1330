@@ -1,0 +1,56 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+
+%
+% Jena1330 inline font declaration
+%
+
+\usepackage[T1]{fontenc}
+
+\DeclareFontFamily{T1}{jena}{}
+\DeclareFontShape{T1}{jena}{m}{n}{<-> Jena1330}{}
+
+\DeclareRobustCommand\jena{\fontfamily{jena}\selectfont}
+\DeclareTextFontCommand{\textjena}{\jena}
+
+% The following line assumes that this is compiled with pdflatex
+% and that the files Jena1330.tfm and Jena1330.pfb are available
+% in the search path.
+
+\pdfmapline{+Jena1330 <Jena1330.pfb}
+
+% end font declaration
+
+\begin{document}
+
+\noindent
+The following text demonstrates \textjena{Jena1330}:
+\bigskip
+
+{\Large\jena \def\TeX{TeX}%
+ \noindent\input II3 }
+\bigskip
+
+\noindent
+Here are the ligatures:\par
+\textjena{fl fi}
+
+\noindent
+These are the characters with init, medi, or final forms:\par
+\textjena{fifif gigig sisis viviv wiwiw}
+
+\noindent
+And then there is the r~\ldots\par
+\textjena{Brx Drx Grx Orx Prx Srx Urx Vrx Wrx Yrx brx drx orx prx yrx}
+
+\noindent
+I'm not sure if this is intentional:\par
+\textjena{vrx} vs. \textjena{xvrx}\par
+\textjena{wrx} vs. \textjena{xwrx}\par
+
+\noindent
+Same thing here (or for other boundary characters):\par
+\textjena{vxf} vs. \textjena{(vxf)}
+
+\end{document}

@@ -1,0 +1,25 @@
+#!/bin/sh
+
+rm -rf work
+mkdir work
+fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Reencode("AdobeStandardEncoding"); Generate("work/Jena1330.pfb", "", 0x410201)'
+# See font forge scripting language description on
+# http://fontforge.sourceforge.net/scripting-alpha.html
+#   Build pfb, in addition:
+#     Generate an afm file
+#     Generate a 'TeX' table containing font metrics information
+#     Generate a tfm file
+#     Add composite (mark to base) information to the afm file
+
+#mv work/Jena1330.tfm work/Jena1330_noligs.tfm
+#tftopl work/Jena1330_noligs.tfm > work/Jena1330_noligs.pl
+#perl -lne '/^\(LIGTABLE/ .. /^\s*\)\s*$/ or print' < work/Jena1330_noligs.pl | tee work/Jena1330.pl
+
+#./mkligtable Jena1330.sfdir | tee -a work/Jena1330.pl
+
+#pltotf work/Jena1330.pl > work/Jena1330.tfm
+cp jena.tex work/jena.tex
+cp II3 work/II3
+
+cd work
+pdflatex jena.tex
