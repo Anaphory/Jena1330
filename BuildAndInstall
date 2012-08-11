@@ -2,7 +2,7 @@
 
 rm -rf work
 mkdir work
-fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Reencode("AdobeStandardEncoding"); Generate("work/Jena1330.pfb", "", 0x410201)'
+fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Generate("work/Jena1330.pfb", "", 0x410201)'
 # See font forge scripting language description on
 # http://fontforge.sourceforge.net/scripting-alpha.html
 #   Build pfb, in addition:
@@ -12,6 +12,8 @@ fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Reencode("AdobeStandardEncoding")
 #     Add composite (mark to base) information to the afm file
 
 tftopl work/Jena1330.tfm work/Jena1330.pl
+cp Jena1330.pl work/Jena1330.pl # We will replace this step by a more reasonable step that extends the LIGTABLE
+pltotf work/Jena1330.pl work/Jena1330.tfm
 
 cp jena.tex work/jena.tex
 cp II3 work/II3
