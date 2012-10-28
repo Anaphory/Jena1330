@@ -1,6 +1,6 @@
 
 StartChar: uniFB06
-Encoding: 30 64262 142
+Encoding: 30 64262 140
 Width: 626
 Flags: W
 HStem: -13 21G<111.5 124 124 135 399 428> 39 47<505.5 507.5 479.5 508> 281 7 384 90<464 477 431.104 483 431.104 516>
@@ -55,4 +55,5 @@ SplineSet
  -3 515 17 537 27 545 c 0
  98 598 157 682 252 757 c 0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs t
 EndChar
