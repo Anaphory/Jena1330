@@ -7,6 +7,7 @@
 %
 
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
 
 \DeclareFontFamily{T1}{jena}{}
 \DeclareFontShape{T1}{jena}{m}{n}{<-> Jena1330}{}
@@ -28,29 +29,18 @@
 The following text demonstrates \textjena{Jena1330}:
 \bigskip
 
-{\Large\jena \def\TeX{TeX}%
- \noindent\input VrowenlopAlexander }
-\bigskip
+\input VrowenlopAlexander
 
 \noindent
 Here are the ligatures:\par
-\textjena{fl fi}
+\textjena{fl fi st (ste) sp ch de si}
 
 \noindent
 These are the characters with init, medi, or final forms:\par
-\textjena{fifif gigig sisis viviv wiwiw titit}
+\textjena{fefef gegeg seses vevev wewew tetet}
 
 \noindent
 And then there is the r~\ldots\par
 \textjena{Brx Drx Grx Orx Prx Srx Urx Vrx Wrx Yrx brx drx orx prx yrx}
-
-\noindent
-I'm not sure if this is intentional:\par
-\textjena{vrx} vs. \textjena{xvrx}\par
-\textjena{wrx} vs. \textjena{xwrx}\par
-
-\noindent
-Same thing here (or for other boundary characters):\par
-\textjena{vxf} vs. \textjena{(vxf)}
 
 \end{document}

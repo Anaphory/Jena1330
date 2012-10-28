@@ -15,8 +15,7 @@ tftopl work/Jena1330.tfm work/Jena1330.pl
 cp Jena1330.pl work/Jena1330.pl # We will replace this step by a more reasonable step that extends the LIGTABLE
 pltotf work/Jena1330.pl work/Jena1330.tfm
 
-cp jena.tex work/jena.tex
-cp II3 work/II3
+cp jena.tex VrowenlopAlexander TopRight.jpg BottomLeft.jpg work/
 
 cd work
 pdflatex jena.tex

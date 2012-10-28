@@ -1,22 +1,35 @@
-Do kvninc alexander myt 
-v\r{u}lkomner macht. Die 
-lant irvacht. Biz tz\r{v} dem parady- 
-se. In so hoer wise. wart ym ge- 
-geben eyn edel steyn kleyne vnde 
-ouch tz\r{v} bryse. Man heiz\footnote[3]{So!} den kv- 
-ninc daz er den steyn myt laste 
-widerv\r{u}ge {S}an wart geleyt 
-der steyn of eyner wage symz. Mit 
-lastes pymz. Solde man in vber- 
-mangen. Swaz man m\r{v}chte ir- 
-langen. Daz lestlich was daz was 
-eyn nicht kegen des steynes spang\m{e}. 
-Eyn wiser warf eyn dach von erden 
-of den steyn gev\r{u}ge {T}z\r{v} hant 
-was al sin last gelegen. Diz merke 
-hochgehegeter dhegen. Kein wider- 
-wegen. Din mac gephlegen. Der wile 
-daz leben hat heiles segen. wirt aber 
-div erde ein dach dir stegen. So wirt 
-din mast. In hoher last. Ein pillich 
-vbertr\r{u}ge.
+\begin{tabular}{ll}
+  \begin{minipage}{70mm}
+    {\Large\jena
+      Do kvninc alexander myt \\
+      v\r{u}lkomner macht. Die \\
+      lant ir vacht. Biz tz\r{v} dem parady- \\
+      se. Jn so hoer wise. Wart ym ge- \\
+      geben eyn edel steyn kleyne vnde \\
+      ouch tz\r{v} bryse. Man heiz den kv- \\
+      ninc daz er den steyn myt laste \\
+      wider v\r{u}ge {S}an wart geleyt \\
+      der steyn of eyner wage symz. Mit \\
+      lastes pymz. Solde man in vber- \\
+      mangen. Swaz man m\r{v}chte ir- \\
+      langen. Daz lest\/lich was daz was \\
+      eyn nicht kegen des steynes spang\={e}.}
+  \end{minipage}
+  &
+  \includegraphics[width=70mm]{BottomLeft.jpg} \\
+  \begin{minipage}{70mm}
+    {\Large\jena
+      Eyn wiser warf eyn dach von erden \\
+      of den steyn gev\r{u}ge {T}z\r{v} hant \\
+      was Al sin last gelegen. Diz merke \\
+      hoch gehegeter dhegen. Kein wider- \\
+      wegen. Din mac gephlegen. Der wile \\
+      daz leben hat heiles segen. wirt aber \\
+      div erde ein dach dir stegen. So wirt \\
+      din mast. In hoher last. Ein pillich \\
+      vber tr\r{u}ge.}
+  \end{minipage}
+  &
+  \includegraphics[width=70mm]{TopRight.jpg}
+\end{tabular}
+
