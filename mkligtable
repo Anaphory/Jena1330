@@ -155,13 +155,11 @@ sub read_font {
 
 	    /^Kerns2:(.*)$/ and do {
 		local $_ = $1;
-		print STDERR "Kerning:\n";
 		while (!/^\s*$/) {
 		    s/^\s*(\d+)\s+([-\d]+)\s+"([^"]*)"//
 			or $die->("unparseable kern spec `$_'");
 		    $knowntable{kern}{$3}
 			or $die->("unknown kerning table \"$3\"");
-		    print STDERR "$pos $1 $2\n";
 		    $2 == 0 and next;
 		    defined $kern->{$pos}->{$1}
 			and $die->("duplicate kern spec for pos $1");
@@ -185,11 +183,19 @@ sub read_font {
     # We need positions, not internals, but due do possible forward
     # references we need a second pass.
 
-    # BUT I HAVE NO CLUE HOW TO DO THAT
+    foreach(keys(%$kern)) {
+	my $pos = $_;
+	my $value = $kern->{$pos};
+	my $newhash = {};
+	foreach(keys(%$value)) {
+	    my $old_other = $_;
+	    my $new_other = $int_enc->[$old_other];
+	    my $kerning = $value->{$old_other};
+	    $newhash->{$new_other} = $kerning;
+	};
+	$kern->{$pos} = $newhash
+    };
     
-    @$_{keys %$_} = map $int_enc->[$_], values %$_
-	for values %$kern;
-
     my %newliga = 
 	maphash { $nametopos->{+shift} } withvalue {
 	    +{ maphash { $nametopos->{+shift} } 
