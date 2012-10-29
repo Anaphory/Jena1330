@@ -128,7 +128,7 @@ sub read_font {
 		defined $encoding->[$pos]
 		    and $die->("position `$pos' already taken by `$encoding->[$pos]'");
 		$encoding->[$pos] = $name;
-		$int_enc->[$internal] = $name;
+		$int_enc->[$internal] = $pos;
 		$nametopos->{$name} = $pos;
 	    }, next;
 
@@ -187,7 +187,7 @@ sub read_font {
 
     # BUT I HAVE NO CLUE HOW TO DO THAT
     
-    @$_{keys %$_} = map $nametopos->{($int_enc->[$_])}, values %$_
+    @$_{keys %$_} = map $int_enc->[$_], values %$_
 	for values %$kern;
 
     my %newliga = 
