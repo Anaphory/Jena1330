@@ -152,6 +152,7 @@ sub read_font {
 	    }, next;
 
 	    /^Kerns2:(.*)$/ and do {
+		print ;
 		local $_ = $1;
 		while (!/^\s*$/) {
 		    s/^\s*(\d+)\s+([-\d]+)\s+"([^"]*)"//
@@ -223,6 +224,7 @@ sub write_ligtable {
     foreach my $pos (0..255) {
 	my $kern = $kern->{$pos} // {};
 	my $look = $look->{$pos} // {};
+	my $liga = $liga->{$pos} // {};
 	my $fina = $fina->{$pos};
 	keys %$kern || keys %$look || defined $fina or next;
 
@@ -231,7 +233,9 @@ sub write_ligtable {
 	    if defined $fina;
 	printf $out "   (/LIG O %o O %o)\n", $_, $look->{$_}
 	    for keys %$look;
-	printf $out "   (KRN O %o R %g)\n", $_, $kern->{$_}/1000
+	printf $out "   (LIG O %o O %o)\n", $_, $liga->{$_}
+	    for keys %$liga;
+	printf $out "   (KRN O %o R %g)\n", $_, $kern->{$_}/100
 	    for keys %$kern;
 	printf $out "   (STOP)\n";
 
