@@ -2,6 +2,7 @@
 
 rm -rf work
 mkdir work
+echo "== Converting the font using FontForge =="
 fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Generate("work/Jena1330.pfb", "", 0x410201)'
 # See font forge scripting language description on
 # http://fontforge.sourceforge.net/scripting-alpha.html
@@ -11,11 +12,18 @@ fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Generate("work/Jena1330.pfb", "",
 #     Generate a tfm file
 #     Add composite (mark to base) information to the afm file
 
-tftopl work/Jena1330.tfm work/Jena1330.pl
-cp Jena1330.pl work/Jena1330.pl # We will replace this step by a more reasonable step that extends the LIGTABLE
-pltotf work/Jena1330.pl work/Jena1330.tfm
+echo "== Creating a new ligtable for the TeX font metric =="
+./mkligtable Jena1330.sfdir/ >> work/Jena1330_ligtable.pl
 
+echo "== Stepping into the working directory =="
 cp jena.tex VrowenlopAlexander TopRight.jpg BottomLeft.jpg work/
-
 cd work
+
+echo "== Modifying the tfm by inserting the previously generated ligtable =="
+tftopl -charcode-format=octal Jena1330.tfm Jena1330_fromtfm.pl
+
+perl -lne 'if ( not /^\(LIGTABLE/ .. /^\s*\)$/ ) { print } else { if ( not $already_done ) { open LIG, "Jena1330_ligtable.pl"; @lines = <LIG>; close(LIG); print @lines; $already_done = 1 ; } } ' Jena1330_fromtfm.pl > Jena1330_new.pl
+pltotf Jena1330_new.pl Jena1330.tfm
+
+echo "== Compiling LaTeX test document =="
 pdflatex jena.tex
