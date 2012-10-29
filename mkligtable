@@ -41,6 +41,7 @@ sub read_font {
     my %fontdata = (
 	srcdir    => $fontdir,
 	encoding  => my $encoding  = [ (undef) x 256 ],
+	int_enc   => my $int_enc   = [ (undef) x 256 ],
 	nametopos => my $nametopos = {},
 	subst     => my $subst     = {},
 	liga      => my $liga      = {},
@@ -105,7 +106,7 @@ sub read_font {
 
 	my $die = sub { die "Error in glyphfile `$fontdir/$glyphname' (@_).\n" };
 
-	my ($name, $pos);
+	my ($name, $pos, $internal);
 	while (<$glyph>) {
 	    chomp;
 	    /^\s*$/ and next;
@@ -121,12 +122,13 @@ sub read_font {
 		(my $positions = $1) =~ /^\s*[-\d]+\s+[-\d]+\s+[-\d]+\s*$/
 		    or $die->("unexpected Encoding specification `$1'");
 
-		($pos, undef, undef) = split " ", $positions;
+		($pos, undef, $internal) = split " ", $positions;
 		$pos < 0 || $pos > 255 and next;
 
 		defined $encoding->[$pos]
 		    and $die->("position `$pos' already taken by `$encoding->[$pos]'");
 		$encoding->[$pos] = $name;
+		$int_enc->[$internal] = $name;
 		$nametopos->{$name} = $pos;
 	    }, next;
 
@@ -152,13 +154,14 @@ sub read_font {
 	    }, next;
 
 	    /^Kerns2:(.*)$/ and do {
-		print ;
 		local $_ = $1;
+		print STDERR "Kerning:\n";
 		while (!/^\s*$/) {
 		    s/^\s*(\d+)\s+([-\d]+)\s+"([^"]*)"//
 			or $die->("unparseable kern spec `$_'");
 		    $knowntable{kern}{$3}
 			or $die->("unknown kerning table \"$3\"");
+		    print STDERR "$pos $1 $2\n";
 		    $2 == 0 and next;
 		    defined $kern->{$pos}->{$1}
 			and $die->("duplicate kern spec for pos $1");
@@ -178,6 +181,14 @@ sub read_font {
 
     @$_{keys %$_} = map $nametopos->{$_}, values %$_
 	for values %$subst;
+
+    # We need positions, not internals, but due do possible forward
+    # references we need a second pass.
+
+    # BUT I HAVE NO CLUE HOW TO DO THAT
+    
+    @$_{keys %$_} = map $nametopos->{($int_enc->[$_])}, values %$_
+	for values %$kern;
 
     my %newliga = 
 	maphash { $nametopos->{+shift} } withvalue {
@@ -235,7 +246,7 @@ sub write_ligtable {
 	    for keys %$look;
 	printf $out "   (LIG O %o O %o)\n", $_, $liga->{$_}
 	    for keys %$liga;
-	printf $out "   (KRN O %o R %g)\n", $_, $kern->{$_}/100
+	printf $out "   (KRN O %o R %g)\n", $_, $kern->{$_}/1024
 	    for keys %$kern;
 	printf $out "   (STOP)\n";
 
