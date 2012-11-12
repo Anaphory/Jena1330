@@ -184,16 +184,16 @@ sub read_font {
     # references we need a second pass.
 
     foreach(keys(%$kern)) {
-	my $pos = $_;
-	my $value = $kern->{$pos};
-	my $newhash = {};
-	foreach(keys(%$value)) {
-	    my $old_other = $_;
-	    my $new_other = $int_enc->[$old_other];
-	    my $kerning = $value->{$old_other};
-	    $newhash->{$new_other} = $kerning;
-	};
-	$kern->{$pos} = $newhash
+       my $pos = $_;
+       my $value = $kern->{$pos};
+       my $newhash = {};
+       foreach(keys(%$value)) {
+           my $old_other = $_;
+           my $new_other = $int_enc->[$old_other];
+           my $kerning = $value->{$old_other};
+           $newhash->{$new_other} = $kerning;
+       };
+       $kern->{$pos} = $newhash
     };
     
     my %newliga = 
@@ -226,7 +226,7 @@ sub write_ligtable {
     my $kern     = $fontdata->{kern};
     my $look     = $fontdata->{lbehind};
 
-    # FIXME BOUNDARYCHAR ligatures müssen auch für ([' etc definiert sein!
+    # FIXME BOUNDARYCHAR ligatures müssen auch für ([' etc definiert werden!
 
     my $bpos = 0;
     $bpos++ while defined $encoding->[$bpos];
@@ -246,8 +246,20 @@ sub write_ligtable {
 	keys %$kern || keys %$look || defined $fina or next;
 
 	printf $out "   (LABEL O %o)\n", $pos;
-	printf $out "   (LIG O %o O %o)\n", $bpos, $fina
-	    if defined $fina;
+
+    my @boundarychars = ($bpos,
+        ord("."),
+        ord(","),
+        ord(";"),
+        ord(":"),
+        ord("-"),
+        ord("!"),
+        ord("?"),);
+    foreach(@boundarychars) {
+	    printf $out "   (LIG/ O %o O %o)\n", $_, $fina
+	        if defined $fina;
+    };
+
 	printf $out "   (/LIG O %o O %o)\n", $_, $look->{$_}
 	    for keys %$look;
 	printf $out "   (LIG O %o O %o)\n", $_, $liga->{$_}
