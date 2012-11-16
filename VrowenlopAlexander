@@ -1,4 +1,5 @@
 \begin{tabular}{ll}
+  \vtop{\vskip0pt\hbox{%
   \begin{minipage}{70mm}
     {\Large\jena
       Do kvninc alexander myt \\
@@ -14,9 +15,10 @@
       mangen. Swaz man m\r{v}chte ir- \\
       langen. Daz lest\/lich was daz was \\
       eyn nicht kegen des steynes spang\={e}.}
-  \end{minipage}
+  \end{minipage}}}
   &
-  \includegraphics[width=70mm]{BottomLeft.jpg} \\
+  \vtop{\vskip0pt\hbox{\includegraphics[width=70mm]{BottomLeft.jpg}}} \\
+  \vtop{\vskip0pt\hbox{%
   \begin{minipage}{70mm}
     {\Large\jena
       Eyn wiser warf eyn dach von erden \\
@@ -28,9 +30,9 @@
       div erde ein dach dir stegen. So wirt \\
       din mast. In hoher last. Ein pillich \\
       vber tr\r{u}ge.}
-  \end{minipage}
+  \end{minipage}}}
   &
-  \includegraphics[width=70mm]{TopRight.jpg}
+  \vtop{\vskip0pt\hbox{\includegraphics[width=70mm]{TopRight.jpg}}}
 \end{tabular}
 
 \noindent
