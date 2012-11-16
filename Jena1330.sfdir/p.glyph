@@ -2,11 +2,11 @@
 StartChar: p
 Encoding: 112 112 64
 AltUni2: 000440.ffffffff.0 0003f1.ffffffff.0 0003c1.ffffffff.0
-Width: 402
+Width: 412
 GlyphClass: 2
-Flags: MW
-HStem: -210 21G<131.481 136.481> 543 20G<271.481 296.481>
-VStem: 73.4814 116 86.4814 116 284.481 109
+Flags: W
+HStem: -210 21G<113.068 136.481> 543 20G<271.481 296.481>
+VStem: 73.4814 116<127.915 377.663> 86.4814 116<-113.974 -2.2829> 284.481 109<215.797 365.687>
 LayerCount: 2
 Fore
 SplineSet

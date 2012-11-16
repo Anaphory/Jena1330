@@ -16,18 +16,18 @@ Layer: 0 0 "Back"  1
 Layer: 1 0 "Zeichenebene"  0
 NeedsXUIDChange: 1
 XUID: [1021 663 1718172218 16134486]
-FSType: 0
+FSType: 256
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1303903470
-ModificationTime: 1341958980
-PfmFamily: 17
+ModificationTime: 1353030255
+PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
 LineGap: 90
 VLineGap: 0
-Panose: 2 0 6 3 0 0 0 0 0 0
+Panose: 3 2 9 2 1 4 10 2 10 5
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -83,7 +83,7 @@ NameList: ΤεΧ Names
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 16 13
+WinInfo: 0 28 14
 BeginPrivate: 9
 BlueValues 24 [-54 20 536 587 662 762]
 OtherBlues 11 [-249 -147]
@@ -95,5 +95,6 @@ StemSnapH 13 [7 47 90 122]
 StemSnapV 24 [90 110 114 115 135 179]
 ExpansionFactor 4 0.06
 EndPrivate
+TeXData: 1 0 0 204472 102236 68157 571474 1048576 68157 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "Anker-0"  "'abvm' Above Base Mark in Latin lookup 0 subtable" 
 EndSplineFont
