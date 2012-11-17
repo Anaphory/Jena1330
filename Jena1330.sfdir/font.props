@@ -14,13 +14,14 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Zeichenebene"  0
+NeedsXUIDChange: 1
 XUID: [1021 663 1718172218 16134486]
 FSType: 256
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1303903470
-ModificationTime: 1353166008
+ModificationTime: 1353172177
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -64,13 +65,36 @@ Lookup: 260 0 0 "'abvm' Above Base Mark in Latin lookup 0"  {"'abvm' Above Base 
 Lookup: 258 0 0 "'kern' Horizontales Kerning in Latin lookup 1"  {"'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'calt' Contextual Alternates in Latin lookup 1 subtable"  2 2 1 1
+ChainSub2: class "'calt' Contextual Alternates in Latin lookup 1 subtable"  4 4 2 4
   Class: 1 r
+  Class: 10 ydotaccent
+  Class: 16 dotlessi u uring
   BClass: 101 uniA75B v.init w.init at B D G O P S U V W Y b d o p v w y ydotaccent ydotaccent.var vring.init vring
+  BClass: 9 E C longs
+  BClass: 28 m n u uring i dotlessi i.var
+  FClass: 28 m n u uring i i.var dotlessi
  1 1 0
   ClsList: 1
   BClsList: 1
   FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 0" 
+ 1 1 0
+  ClsList: 2
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 0" 
+ 1 1 0
+  ClsList: 3
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 0" 
+ 1 0 1
+  ClsList: 3
+  BClsList:
+  FClsList: 1
  1
   SeqLookup: 0 "Single Substitution lookup 0" 
 EndFPST
@@ -81,7 +105,7 @@ NameList: ΤεΧ Names
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 28 15
+WinInfo: 0 24 12
 BeginPrivate: 9
 BlueValues 24 [-54 20 536 587 662 762]
 OtherBlues 11 [-249 -147]
