@@ -42,7 +42,7 @@ SplineSet
  294.443 295 l 2
  294.443 295 296.443 363 291.443 369 c 0
 EndSplineSet
-LCarets2: 1 0 
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f.med i
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f i
+LCarets2: 1 0 
 EndChar

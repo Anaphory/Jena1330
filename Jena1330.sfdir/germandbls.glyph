@@ -47,4 +47,5 @@ SplineSet
  347 233 275 221 275 263 c 1
  311 365 377 418 391 527 c 1xc0
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs s
 EndChar

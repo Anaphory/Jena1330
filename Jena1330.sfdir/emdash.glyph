@@ -18,4 +18,5 @@ SplineSet
  995.333 283 984.926 205.691 940.166 200.5 c 1
  880.999 201.5 l 2
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" endash hyphen
 EndChar

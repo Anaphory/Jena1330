@@ -56,4 +56,6 @@ SplineSet
  98 598 157 682 252 757 c 0
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs t
+Substitution2: "'medi' Medial Forms in Latin lookup-1" uniFB06.med
+Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" uniFB06.med
 EndChar

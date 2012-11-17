@@ -1,15 +1,20 @@
 
-StartChar: y
-Encoding: 121 121 73
-AltUni2: 000443.ffffffff.0
+StartChar: ydotaccent
+Encoding: 253 7823 167
 Width: 418
-GlyphClass: 2
-Flags: HMW
-HStem: -248 21G<45.666 61.166> 525 20G<100.666 102.666 125.666 130.166> 720 20G<200.666 219.666>
-VStem: 134.666 121 287.666 111
+Flags: W
+HStem: -248 21G<45.666 61.166> 525 20G<72.166 102.666 125.666 130.166 282.166 316.166> 720 20G<179.666 219.666>
+VStem: 134.666 121<642.826 702.992> 287.666 111<245.365 389.808>
 LayerCount: 2
 Fore
 SplineSet
+134.666 651 m 4
+ 134.666 694 158.666 723 200.666 740 c 5
+ 238.666 740 210.666 703 240.666 703 c 5
+ 240.666 703 255.666 692 255.666 684 c 4
+ 255.666 652 214.666 629 204.666 612 c 5
+ 200.666 612 186.666 598 186.666 598 c 5
+ 183.666 601 134.666 626 134.666 651 c 4
 11.666 436 m 1
  11.666 495 43.666 525 100.666 545 c 1
  104.666 545 109.666 543 112.666 540 c 1
@@ -43,6 +48,5 @@ SplineSet
  334.666 432 348.666 412 359.666 412 c 1
  359.666 413 l 1
 EndSplineSet
-Kerns2: 68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
-Substitution2: "'hist' Historical Forms in Latin lookup-1" ydotaccent
+Substitution2: "Single Substitution lookup 0 subtable" ydotaccent.var
 EndChar

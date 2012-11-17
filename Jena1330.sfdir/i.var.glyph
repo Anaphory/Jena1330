@@ -3,8 +3,8 @@ StartChar: i.var
 Encoding: 96 -1 161
 Width: 212
 Flags: W
-HStem: 0 21G 527 20G 689.004 45.422
-VStem: 50.6504 117
+HStem: -0.00292969 21G<124.149 145.649> 526.997 20G<64.6494 126.149> 689.002 45.424<258.124 326.957>
+VStem: 50.6494 117<128.389 392.307>
 LayerCount: 2
 Fore
 SplineSet

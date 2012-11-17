@@ -1,10 +1,9 @@
 
 StartChar: s
-Encoding: 27 115 67
+Encoding: 115 115 151
 Width: 323
 VWidth: 1043
-GlyphClass: 2
-Flags: HMW
+Flags: W
 HStem: -16 22G<134.261 160.261> 531 21G<156.261 195.261>
 VStem: 33.2609 59 209.261 46
 LayerCount: 2
@@ -43,4 +42,7 @@ SplineSet
  97.2607 426 103.261 376 92.2607 353 c 1
  92.2607 342 131.261 334 165.261 334 c 0
 EndSplineSet
+Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" longs
+Substitution2: "'medi' Medial Forms in Latin lookup-1" longs
+Substitution2: "'hist' Historical Forms in Latin lookup-1" longs
 EndChar

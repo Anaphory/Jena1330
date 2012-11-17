@@ -51,7 +51,6 @@ SplineSet
  324.998 503 337.998 509 348.998 509 c 1,100,-1
  357.044 507.817 363.309 506.41 368.184 504.765 c 1,78,-1
 EndSplineSet
-Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f l
-Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f l
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f.med l
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f l
 EndChar

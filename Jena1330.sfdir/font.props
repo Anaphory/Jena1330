@@ -14,14 +14,13 @@ sfntRevision: 0x00010000
 LayerCount: 2
 Layer: 0 0 "Back"  1
 Layer: 1 0 "Zeichenebene"  0
-NeedsXUIDChange: 1
 XUID: [1021 663 1718172218 16134486]
 FSType: 256
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1303903470
-ModificationTime: 1353030255
+ModificationTime: 1353166008
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -54,21 +53,20 @@ OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000047.00000000.00000000.00000000
-Lookup: 1 0 0 "Single Substitution lookup 0"  {"Single Substitution lookup 0 subtable"  } []
-Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup 1"  {"'calt' Contextual Alternates in Latin lookup 1 subtable"  } ['calt' ('latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'init' Initiale Formen in Latin lookup 2"  {"'init' Initiale Formen in Latin lookup 2 subtable" ("med" ) } ['init' ('latn' <'dflt' > ) ]
-Lookup: 1 0 0 "'medi' Medial Forms in Latin lookup 3"  {"'medi' Medial Forms in Latin lookup 3 subtable" ("med" ) } ['medi' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 4"  {"'liga' Standard Ligatures in Latin lookup 4 subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'hist' Historical Forms in Latin lookup"  {"'hist' Historical Forms in Latin lookup-1"  } ['hist' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'init' Initial Forms in Latin lookup"  {"'init' Initiale Formen in Latin lookup 2 subtable" ("med" ) } ['init' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Wortendeformen in Latin lookup 5"  {"'fina' Wortendeformen in Latin lookup 5 subtable"  } ['fina' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 0"  {"Single Substitution lookup 0 subtable"  } []
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 4"  {"'liga' Standard Ligatures in Latin lookup 4 subtable"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'medi' Medial Forms in Latin lookup"  {"'medi' Medial Forms in Latin lookup-1" ("med" ) } ['medi' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup"  {"'calt' Contextual Alternates in Latin lookup 1 subtable"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Latin lookup 0"  {"'abvm' Above Base Mark in Latin lookup 0 subtable"  } ['abvm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontales Kerning in Latin lookup 1"  {"'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  "'kern' Horizontales Kerning in Latin lookup 1 kerning class 1"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontales Kerning in Latin lookup 1"  {"'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  } ['kern' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-KernClass2: 1 1 "'kern' Horizontales Kerning in Latin lookup 1 kerning class 1" 
- 0 {}
 ChainSub2: class "'calt' Contextual Alternates in Latin lookup 1 subtable"  2 2 1 1
   Class: 1 r
-  BClass: 41 B D G O P S U V W Y b d o p v w y uniA75B
+  BClass: 101 uniA75B v.init w.init at B D G O P S U V W Y b d o p v w y ydotaccent ydotaccent.var vring.init vring
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -83,7 +81,7 @@ NameList: ΤεΧ Names
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 0 28 14
+WinInfo: 0 28 15
 BeginPrivate: 9
 BlueValues 24 [-54 20 536 587 662 762]
 OtherBlues 11 [-249 -147]

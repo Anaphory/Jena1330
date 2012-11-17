@@ -1,8 +1,9 @@
 
 StartChar: longs
-Encoding: 115 383 151
+Encoding: 27 383 67
 Width: 245
-Flags: W
+GlyphClass: 2
+Flags: MW
 HStem: -13 21G<111.242 123.742 123.742 134.742> 587 182<278.242 343.742>
 VStem: -3.25684 179.999 56.7432 115.999 82.7432 135.999
 LayerCount: 2

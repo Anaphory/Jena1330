@@ -48,6 +48,6 @@ SplineSet
  -15.2568 515 4.74316 537 14.7432 545 c 0
  85.7422 598 144.985 681.694 239.742 757 c 0xd9
 EndSplineSet
-Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" uniFB06
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs t.med
+Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" uniFB06
 EndChar
