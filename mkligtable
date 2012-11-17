@@ -16,8 +16,10 @@ sub maphash (&@) {
 my %knowntable = (
     subst => {
 	"'init' Initiale Formen in Latin lookup 2 subtable" => 'init',
- 	"'medi' Medial Forms in Latin lookup-1"             => 'medi',  # TeX cannot deal with those
-    "'hist' Historical Forms in Latin lookup-1"         => 'hist',  # TeX cannot deal with those
+ 	"'medi' Medial Forms in Latin lookup-1"             => 'medi',  
+        # TeX cannot deal with those, so we always apply it and hope for init and fina to mop up the mess.
+    "'hist' Historical Forms in Latin lookup-1"         => 'hist', 
+        # TeX cannot deal with selectable features, so we always apply this.
 	"'fina' Wortendeformen in Latin lookup 5 subtable"  => 'fina',
 	"Single Substitution lookup 0 subtable"             => 'lookbehind',
     },
@@ -79,10 +81,8 @@ sub read_font {
 	/^\s*BClass:(.*)$/ and ( (undef, @lbbclass) = split " ", $1 ), next;
 
 	/^\s*(B|F|)ClsList:\s*(.*?)\s*$/ and do {
-	       ($1 eq ''  && $2 eq '1')
-	    || ($1 eq 'B' && $2 eq '1')
-	    || ($1 eq 'F' && $2 eq '')
-		or die "Unknown lookbehind substitution.\n";
+	        ($1 eq ''  || $1 eq 'B' || $1 eq 'F') && ($2 eq '' || $2 eq '1' || $2 eq '2' || $2 eq '3')
+		    or die "Unknown lookbehind substitution: $1 = $2\n";
 	}, next;   
 
 	/^\s*SeqLookup:\s*(.*?)\s*$/ and do {
