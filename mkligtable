@@ -16,7 +16,8 @@ sub maphash (&@) {
 my %knowntable = (
     subst => {
 	"'init' Initiale Formen in Latin lookup 2 subtable" => 'init',
-#	"'medi' Medial Forms in Latin lookup 3 subtable"    => 'medi',  # TeX cannot deal with those
+ 	"'medi' Medial Forms in Latin lookup-1"             => 'medi',  # TeX cannot deal with those
+    "'hist' Historical Forms in Latin lookup-1"         => 'hist',  # TeX cannot deal with those
 	"'fina' Wortendeformen in Latin lookup 5 subtable"  => 'fina',
 	"Single Substitution lookup 0 subtable"             => 'lookbehind',
     },
@@ -135,11 +136,11 @@ sub read_font {
 	    /^Substitution2:(.*)$/ and do {
 		my ($table, $newform) = ($1 =~ /^\s*"([^"]*)"\s*(\S+)\s*$/)
 		    or $die->("substitution `$1' not parseable");
-		$table = $knowntable{subst}{$table}
+		my $ktable = $knowntable{subst}{$table}
 		    or $die->("unknown substitution table \"$table\"");
-		defined $subst->{$table}->{$pos}
+		defined $subst->{$ktable}->{$pos}
 		    and $die->("duplicate substition for table \"$table\"");
-		$subst->{$table}->{$pos} = $newform;
+		$subst->{$ktable}->{$pos} = $newform;
 	    }, next;
 
 	    /^Ligature2:(.*)$/ and do {
