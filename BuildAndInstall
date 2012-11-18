@@ -16,7 +16,7 @@ echo "== Creating a new ligtable for the TeX font metric =="
 ./mkligtable Jena1330.sfdir/ >> work/Jena1330_ligtable.pl
 
 echo "== Stepping into the working directory =="
-cp jena.tex VrowenlopAlexander TopRight.jpg BottomLeft.jpg work/
+cp jena.tex jena1330.sty VrowenlopAlexander TopRight.jpg BottomLeft.jpg work/
 cd work
 
 echo "== Modifying the tfm by inserting the previously generated ligtable =="
