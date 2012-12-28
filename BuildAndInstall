@@ -13,7 +13,7 @@ fontforge -lang=ff -c 'Open("Jena1330.sfdir"); Generate("work/Jena1330.pfb", "",
 #     Add composite (mark to base) information to the afm file
 
 echo "== Creating a new ligtable for the TeX font metric =="
-./mkligtable Jena1330.sfdir/ >> work/Jena1330_ligtable.pl
+./mkligtable.py Jena1330.sfdir/ >> work/Jena1330_ligtable.pl
 
 echo "== Stepping into the working directory =="
 cp jena.tex jena1330.sty VrowenlopAlexander TopRight.jpg BottomLeft.jpg work/

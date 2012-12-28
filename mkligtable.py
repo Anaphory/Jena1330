@@ -41,10 +41,10 @@ class ChainSub (object):
         for c, bc, fc, table in self.substitutions:
             if fc is None:
                 for glyph in self.classes[c]:
-                    subs = lookbehinds.setdefault(
-                        glyph, {})
                     for backward in self.bclasses[bc]:
-                        subs[backward] = (
+                        subs = lookbehinds.setdefault(
+                            backward, {})
+                        subs[glyph] = (
                             substitutions[
                                 table + " subtable"
                                 ][glyph])
@@ -75,20 +75,25 @@ def ligtable(
             init.update(table)
         elif "'fina'" in name:
             fina.update(table)
-        elif "Subs" in name:
             interesting_glyphs.update(set(table))
 
     liga = {}
     for name, table in ligatures.iteritems():
         liga.update(table)
+        interesting_glyphs.update(set(table))
 
     kern = {}
     for name, table in kernings.iteritems():
         kern.update(table)
+        interesting_glyphs.update(set(table))
+
+    interesting_glyphs.update(lookaheads)
+    interesting_glyphs.update(lookbehinds)
 
     boundary_characters = [
         positions[unicodes[ord(boundary_character)]]
-        for boundary_character in boundary_characters]
+        for boundary_character in boundary_characters] + [
+        bchar]
 
 
     #Replace references to 'usual' glyphs by their medial and historic
@@ -98,11 +103,12 @@ def ligtable(
     #It starts with a boundarychar.
     print "(BOUNDARYCHAR O %o)" % bchar
     print "(LIGTABLE";
-    print "   (LABEL BOUNDARYCHAR)"
+    print "  (LABEL BOUNDARYCHAR)"
     for general, initial in init.iteritems():
         print "   (LIG O %o O %o)" % (
             positions[general],
             positions[initial])
+    print "  (STOP)"
 
     #Deal with init forms.
     #These are lookbehind contextuals, therefor "/LIG"
@@ -139,10 +145,11 @@ def ligtable(
                 positions[to])
         for kernother, amount in kern.get(
             glyph, {}).iteritems():
-            print "   (KRN O %o R %d)" % (
+            print "   (KRN O %o R %f)" % (
                 positions[internals[kernother]],
-                amount)
+                amount*0.001)
         print "  (STOP)"
+    print " )"
             
     
 #if __name__=="__main__":
