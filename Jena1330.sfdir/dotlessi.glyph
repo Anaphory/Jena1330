@@ -3,9 +3,9 @@ StartChar: dotlessi
 Encoding: 105 105 57
 Width: 199
 GlyphClass: 2
-Flags: HMW
+Flags: W
 HStem: 0 21G<112.5 134>
-VStem: 39 117<216.5 251 251 278 216.5 308 216.5 325>
+VStem: 39 117<128.391 379.31>
 LayerCount: 2
 Fore
 SplineSet

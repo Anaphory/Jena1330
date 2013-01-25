@@ -54,4 +54,5 @@ SplineSet
  503 39 473 29 462 6 c 1
  450 -7 427 -27 404 -27 c 1
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 letters with rings" v.init uni030A
 EndChar

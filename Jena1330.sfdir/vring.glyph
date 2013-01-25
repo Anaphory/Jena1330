@@ -48,5 +48,6 @@ SplineSet
  251.819 105 254.819 104 257.819 104 c 0
  266.819 104 270.819 114 270.819 127 c 1
 EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 4 letters with rings" v uni030A
 Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" vring.init
 EndChar
