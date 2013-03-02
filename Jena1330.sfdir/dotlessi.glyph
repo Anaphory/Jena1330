@@ -1,4 +1,3 @@
-
 StartChar: dotlessi
 Encoding: 105 105 57
 Width: 199
@@ -6,6 +5,7 @@ GlyphClass: 2
 Flags: W
 HStem: 0 21G<112.5 134>
 VStem: 39 117<128.391 379.31>
+AnchorPoint: "Anker-0" 72 527 basechar 0
 LayerCount: 2
 Fore
 SplineSet

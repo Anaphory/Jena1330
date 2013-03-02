@@ -1,9 +1,8 @@
-
 StartChar: igrave
 Encoding: 236 236 116
-Width: 277
+Width: 198
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 0 21<150.5 172>
 VStem: 22.9685 150 77 117<216.5 251 251 278 216.5 308 216.5 325>
 LayerCount: 2

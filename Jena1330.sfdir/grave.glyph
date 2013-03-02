@@ -1,9 +1,9 @@
-
 StartChar: grave
 Encoding: 0 96 142
 Width: 199
 Flags: W
 VStem: 25 150
+AnchorPoint: "Anker-0" 95.604 554.6 mark 0
 LayerCount: 2
 Fore
 SplineSet

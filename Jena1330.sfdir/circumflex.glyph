@@ -1,10 +1,10 @@
-
 StartChar: circumflex
 Encoding: 2 710 143
 Width: 215
 Flags: W
 HStem: 609 127
 VStem: 133 57<610.5 658>
+AnchorPoint: "Anker-0" 98 582 mark 0
 LayerCount: 2
 Fore
 SplineSet

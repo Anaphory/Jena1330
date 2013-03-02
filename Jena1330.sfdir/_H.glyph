@@ -1,7 +1,6 @@
-
 StartChar: H
 Encoding: 72 72 28
-AltUni2: 00041d.ffffffff.0 000397.ffffffff.0
+AltUni2: 000397.ffffffff.0 00041d.ffffffff.0
 Width: 535
 GlyphClass: 2
 Flags: MW

@@ -1,8 +1,7 @@
-
 StartChar: uni030A
 Encoding: 180 778 169
 Width: 218
-Flags: WO
+Flags: W
 HStem: 578 7.21399 730.409 31.591
 VStem: 24 52.3057 145 34<618.001 649.5 643 644.542>
 AnchorPoint: "Anker-0" 113 596 mark 0

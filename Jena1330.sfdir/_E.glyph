@@ -1,12 +1,12 @@
-
 StartChar: E
 Encoding: 69 69 25
-AltUni2: 000415.ffffffff.0 000395.ffffffff.0
+AltUni2: 000395.ffffffff.0 000415.ffffffff.0
 Width: 297
 GlyphClass: 2
 Flags: MW
 HStem: -47 21G<192.947 205.447> 608 64<398 416 413.5 416 413.5 416> 692 7<445.5 461.947 459.947 466.447 459.947 469.447> 692 21G<445.5 453.5 464.947 466.447 466.447 469.447>
 VStem: 78 91 247 45<501 520> 460.447 9
+AnchorPoint: "Anker-0" 242 738 basechar 0
 LayerCount: 2
 Fore
 SplineSet

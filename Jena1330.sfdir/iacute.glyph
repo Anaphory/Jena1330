@@ -1,9 +1,8 @@
-
 StartChar: iacute
 Encoding: 237 237 117
-Width: 277
+Width: 198
 GlyphClass: 2
-Flags: MW
+Flags: HMW
 HStem: 0 21<150.5 172>
 VStem: 77 117<216.5 251 251 278 216.5 308 216.5 325> 119.611 9 145.611 69
 LayerCount: 2
