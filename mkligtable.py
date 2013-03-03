@@ -62,7 +62,7 @@ def ligtable(
     kernings,
     boundary_characters = ".,;:()-!?"
     ):
-    bchar = max(set(xrange(256))-set(internals))
+    bchar = max(set(range(256))-set(internals))
 
     #Bring data in a form we can use to write the ligtable
     init = {}
@@ -70,7 +70,7 @@ def ligtable(
     interesting_glyphs = set()
     #"Interesting" are those glyphs that have ligature
     #or kerning data associated with them.
-    for name, table in substitutions.iteritems():
+    for name, table in substitutions.items():
         if "'init'" in name:
             init.update(table)
         elif "'fina'" in name:
@@ -78,12 +78,12 @@ def ligtable(
             interesting_glyphs.update(set(table))
 
     liga = {}
-    for name, table in ligatures.iteritems():
+    for name, table in ligatures.items():
         liga.update(table)
         interesting_glyphs.update(set(table))
 
     kern = {}
-    for name, table in kernings.iteritems():
+    for name, table in kernings.items():
         kern.update(table)
         interesting_glyphs.update(set(table))
 
@@ -101,55 +101,55 @@ def ligtable(
 
     #Start writing the ligtable:
     #It starts with a boundarychar.
-    print "(BOUNDARYCHAR O %o)" % bchar
-    print "(LIGTABLE";
-    print "  (LABEL BOUNDARYCHAR)"
-    for general, initial in init.iteritems():
-        print "   (LIG O %o O %o)" % (
+    print("(BOUNDARYCHAR O %o)" % bchar)
+    print("(LIGTABLE");
+    print("  (LABEL BOUNDARYCHAR)")
+    for general, initial in init.items():
+        print("   (LIG O %o O %o)" % (
             positions[general],
-            positions[initial])
-    print "  (STOP)"
+            positions[initial]))
+    print("  (STOP)")
 
     #Deal with init forms.
     #These are lookbehind contextuals, therefor "/LIG"
     for boundary_character in boundary_characters:
-        print "  (LABEL O %o)" % boundary_character
-        for general, initial in init.iteritems():
-            print "   (/LIG O %o O %o)" % (
+        print("  (LABEL O %o)" % boundary_character)
+        for general, initial in init.items():
+            print("   (/LIG O %o O %o)" % (
                 positions[general],
-                positions[initial])
-        print "  (STOP)"
+                positions[initial]))
+        print("  (STOP)")
         
     #Deal with other glyphs.
     for glyph in interesting_glyphs:
-        print "  (LABEL O %o)" % positions[glyph]
+        print("  (LABEL O %o)" % positions[glyph])
         for lookbehind, to in lookbehinds.get(
-            glyph, {}).iteritems():
-            print "   (/LIG O %o O %o)" % (
+            glyph, {}).items():
+            print("   (/LIG O %o O %o)" % (
                 positions[lookbehind],
-                positions[to])
+                positions[to]))
         for lookahead, to in lookaheads.get(
-            glyph, {}).iteritems():
-            print "   (LIG/ O %o O %o)" % (
+            glyph, {}).items():
+            print("   (LIG/ O %o O %o)" % (
                 positions[lookahead],
-                positions[to])
+                positions[to]))
         if glyph in fina:
             for boundary_character in boundary_characters:
-                print "   (LIG/ O %o O %o)" % (
+                print("   (LIG/ O %o O %o)" % (
                     boundary_character,
-                    positions[fina[glyph]])
+                    positions[fina[glyph]]))
         for ligother, to in liga.get(
-            glyph, {}).iteritems():
-            print "   (LIG O %o O %o)" % (
+            glyph, {}).items():
+            print("   (LIG O %o O %o)" % (
                 positions[ligother],
-                positions[to])
+                positions[to]))
         for kernother, amount in kern.get(
-            glyph, {}).iteritems():
-            print "   (KRN O %o R %f)" % (
+            glyph, {}).items():
+            print("   (KRN O %o R %f)" % (
                 positions[internals[kernother]],
-                amount*0.001)
-        print "  (STOP)"
-    print " )"
+                amount*0.001))
+        print("  (STOP)")
+    print(" )")
             
     
 #if __name__=="__main__":
@@ -284,7 +284,7 @@ if True:
                         blobs = blobs.split('"')
                         #Do not have '"' in table names, as it would
                         #break this!!!!
-                        blobs = zip(blobs[::2], blobs[1::2])
+                        blobs = list(zip(blobs[::2], blobs[1::2]))
                         
                         for data, tablename in blobs:
                             table = kernings.setdefault(
