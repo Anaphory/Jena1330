@@ -30,5 +30,4 @@ SplineSet
  264.165 105 267.165 104 270.165 104 c 0
  279.165 104 283.165 114 283.165 127 c 1
 EndSplineSet
-Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" v.init
 EndChar

@@ -43,4 +43,5 @@ SplineSet
  596 125 600 121 604 121 c 1
  628 133 648 195 648 230 c 0
 EndSplineSet
+Ligature2: "'liga' Hacks using Ligatures in Latin lookup 4" emdash w
 EndChar

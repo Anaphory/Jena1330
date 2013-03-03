@@ -57,7 +57,7 @@ Lookup: 1 0 0 "'hist' Historical Forms in Latin lookup"  {"'hist' Historical For
 Lookup: 1 0 0 "'init' Initial Forms in Latin lookup"  {"'init' Initiale Formen in Latin lookup 2 subtable" ("med" ) } ['init' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'fina' Wortendeformen in Latin lookup 5"  {"'fina' Wortendeformen in Latin lookup 5 subtable"  } ['fina' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 0"  {"Single Substitution lookup 0 subtable"  } []
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 4"  {"'liga' Standard Ligatures in Latin lookup 4 subtable"  "'liga' Standard Ligatures in Latin lookup 4 letters with rings"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 4"  {"'liga' Standard Ligatures in Latin lookup 4 subtable"  "'liga' Standard Ligatures in Latin lookup 4 letters with rings"  "'liga' Hacks using Ligatures in Latin lookup 4"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "'medi' Medial Forms in Latin lookup"  {"'medi' Medial Forms in Latin lookup-1" ("med" ) } ['medi' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "'calt' Contextual Alternates in Latin lookup"  {"'calt' Contextual Alternates in Latin lookup 1 subtable"  "'calt' Contextual Alternates in Latin lookup i/m/f subtable"  } ['calt' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'abvm' Above Base Mark in Latin lookup 0"  {"'abvm' Above Base Mark in Latin lookup 0 subtable"  } ['abvm' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]

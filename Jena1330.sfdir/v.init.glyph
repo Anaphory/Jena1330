@@ -35,4 +35,5 @@ SplineSet
  404.234 39 374.234 29 363.234 6 c 1
  351.234 -7 328.234 -27 305.234 -27 c 1
 EndSplineSet
+Ligature2: "'liga' Hacks using Ligatures in Latin lookup 4" emdash v
 EndChar
