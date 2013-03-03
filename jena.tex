@@ -4,7 +4,7 @@
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{jena1330}
-
+\DeclareTextSymbol{\*}{T1}{12}
 
 
 % The following line assumes that this is compiled with pdflatex
@@ -37,4 +37,5 @@ And then there is the r~\ldots\par
 
 \noindent
 Some characters are defined to be boundary characters, so apart from \textjena{this } we also get the final s in \textjena{this; this, and this.}
+Initial, medial and final characters can be explicitly suppressed and enforced by using \verb|\/| for \textjena{s\/v} respectively \verb|\*| \textjena{\*vs\*}
 \end{document}
