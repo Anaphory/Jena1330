@@ -1,12 +1,12 @@
 StartChar: Uacute
 Encoding: 218 218 101
-Width: 606
+Width: 580
 GlyphClass: 2
 Flags: HMW
 HStem: -28 21
-VStem: 131.288 9 157.288 69 529 118<261 425.5>
+VStem: 105.647 9 131.647 69 503.359 118<261 425.5>
 LayerCount: 2
 Fore
-Refer: 78 180 N 1 0 0 1 254 -28 2
+Refer: 78 180 N 1 0 0 1 228.359 -28 2
 Refer: 41 85 N 1 0 0 1 0 0 3
 EndChar

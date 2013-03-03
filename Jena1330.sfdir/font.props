@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1303903470
-ModificationTime: 1362322518
+ModificationTime: 1362332108
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -127,7 +127,7 @@ NameList: ΤεΧ Names
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 27 27 9
+WinInfo: 0 27 9
 BeginPrivate: 9
 BlueValues 24 [-54 20 536 587 662 762]
 OtherBlues 11 [-249 -147]
