@@ -1,5 +1,5 @@
 StartChar: asciicircum
-Encoding: 94 94 185
+Encoding: 94 94 184
 Width: 297
 Flags: W
 HStem: 549 188 556 21G<30.334 37.334>
@@ -22,5 +22,5 @@ SplineSet
  238.333984375 564 165.333007812 646 131.666992188 664 c 1
  114.666992188 661 53.333984375 576 43.333984375 559 c 0xa0
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar

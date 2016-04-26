@@ -1,5 +1,5 @@
 StartChar: sterling
-Encoding: 163 163 196
+Encoding: 163 163 195
 Width: 215
 Flags: W
 HStem: 0 21G<84.3691 103.869 103.869 130.869 342.547 377.547> 74 40<436.049 453.548> 547 20G<487.047 498.547> 666 20G<242.047 252.547 337.547 355.547>
@@ -24,5 +24,5 @@ SplineSet
 EndSplineSet
 Refer: 50 98 N 1 0 0 1 194 0 2
 Refer: 60 108 N 1 0 0 1 0 0 2
-Validated: 8912901
+Validated: 5
 EndChar

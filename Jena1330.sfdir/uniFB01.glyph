@@ -43,5 +43,5 @@ SplineSet
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f.med i
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" f i
-LCarets2: 1 0 
+LCarets2: 1 0
 EndChar

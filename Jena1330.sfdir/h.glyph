@@ -43,5 +43,5 @@ SplineSet
  221 496 293 550 341 567 c 1
  344 567 357 559 360 545 c 0
 EndSplineSet
-Kerns2: 53 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 53 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"
 EndChar

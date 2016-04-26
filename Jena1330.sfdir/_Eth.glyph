@@ -1,5 +1,5 @@
 StartChar: Eth
-Encoding: 208 208 189
+Encoding: 208 208 188
 Width: 462
 Flags: W
 HStem: -10 126<208.852 309.352> 0 116<235.927 285.524> 567 20G<39.3525 88.8522>
@@ -19,5 +19,5 @@ SplineSet
  -18.779296875 320.861328125 -16.79296875 331.646484375 -12.26171875 337 c 4x38
 EndSplineSet
 Refer: 24 68 N 1 0 0 1 0 0 2
-Validated: 524293
+Validated: 5
 EndChar

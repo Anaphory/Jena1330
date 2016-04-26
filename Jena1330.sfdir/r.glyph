@@ -34,6 +34,6 @@ SplineSet
  235.654 382 231.654 385 231.654 390 c 1
  223.654 403 175.654 437 175.654 448 c 1
 EndSplineSet
-Kerns2: 62 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"  66 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 
+Kerns2: 62 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 66 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"
 Substitution2: "Single Substitution lookup 0 subtable" uniA75B
 EndChar

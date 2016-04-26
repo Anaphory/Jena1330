@@ -1,12 +1,12 @@
 StartChar: quotedbl
-Encoding: 34 34 182
+Encoding: 34 34 181
 Width: 363
 Flags: W
 HStem: 479 244
 VStem: -25 169<599.569 673.049> 151 169<599.569 673.049>
 LayerCount: 2
 Fore
-Refer: 181 39 N 1 0 0 1 176 0 2
-Refer: 181 39 N 1 0 0 1 0 0 2
+Refer: 180 39 N 1 0 0 1 176 0 2
+Refer: 180 39 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar

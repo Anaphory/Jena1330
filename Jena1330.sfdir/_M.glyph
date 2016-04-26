@@ -1,6 +1,6 @@
 StartChar: M
 Encoding: 77 77 33
-AltUni2: 00041c.ffffffff.0 00039c.ffffffff.0
+AltUni2: 00039c.ffffffff.0 00041c.ffffffff.0
 Width: 655
 GlyphClass: 2
 Flags: HMW

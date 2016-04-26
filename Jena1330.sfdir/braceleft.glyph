@@ -1,5 +1,5 @@
 StartChar: braceleft
-Encoding: 123 123 212
+Encoding: 123 123 211
 Width: 269
 Flags: W
 HStem: -40 21G<151 172.5>
@@ -29,5 +29,5 @@ SplineSet
  81.5 202 l 2
  81.5 236 42.5 313 20.5 340 c 1
 EndSplineSet
-Validated: 524325
+Validated: 37
 EndChar
