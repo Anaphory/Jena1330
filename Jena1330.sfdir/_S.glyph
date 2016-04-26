@@ -1,6 +1,6 @@
 StartChar: S
 Encoding: 83 83 39
-AltUni2: 000405.ffffffff.0 00054f.ffffffff.0
+AltUni2: 00054f.ffffffff.0 000405.ffffffff.0
 Width: 475
 GlyphClass: 2
 Flags: HMW

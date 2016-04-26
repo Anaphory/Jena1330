@@ -1,9 +1,9 @@
 StartChar: uniA75B
-Encoding: 16 42843 155
+Encoding: 279 42843 155
 Width: 237
-Flags: HW
-HStem: 5 21G<112.63 159.63> 449 140<49.1299 103.856>
-VStem: 137.13 103<356.444 416.311>
+Flags: W
+HStem: -8 21G<109.5 156.5> 436 140<46 100.726>
+VStem: 134 103<343.444 403.311>
 LayerCount: 2
 Fore
 SplineSet

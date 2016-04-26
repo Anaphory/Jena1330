@@ -1,6 +1,6 @@
 StartChar: x
 Encoding: 120 120 72
-AltUni2: 0003c7.ffffffff.0 000445.ffffffff.0
+AltUni2: 000445.ffffffff.0 0003c7.ffffffff.0
 Width: 379
 GlyphClass: 2
 Flags: W

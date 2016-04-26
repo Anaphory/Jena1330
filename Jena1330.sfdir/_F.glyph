@@ -2,7 +2,8 @@ StartChar: F
 Encoding: 70 70 26
 Width: 273
 GlyphClass: 2
-Flags: HW
+Flags: W
+HStem: 384 124<154.938 232.577 302.6 333.068>
 VStem: 34.5996 114<75.918 288 297 387.439>
 LayerCount: 2
 Fore

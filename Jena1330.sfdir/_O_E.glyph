@@ -1,5 +1,5 @@
 StartChar: OE
-Encoding: 215 338 132
+Encoding: 259 338 132
 Width: 589
 GlyphClass: 2
 Flags: W
@@ -62,5 +62,4 @@ SplineSet
  321 757 337 714 349 692 c 0
  360 673 370 647 379 623 c 1
 EndSplineSet
-Validated: 1
 EndChar

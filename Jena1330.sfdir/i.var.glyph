@@ -1,9 +1,9 @@
 StartChar: i.var
-Encoding: 96 -1 161
+Encoding: 285 -1 161
 Width: 199
-Flags: HW
-HStem: 0 21G<112.5 134>
-VStem: 39 117<128.391 379.31>
+Flags: W
+HStem: 0 21G<111.805 133.305> 527 20G<52.3047 113.805> 689.002 45.424<246.474 315.307>
+VStem: 38.3047 117<128.392 392.31>
 AnchorPoint: "Anker-0" 72.5 542.5 basechar 0
 LayerCount: 2
 Fore

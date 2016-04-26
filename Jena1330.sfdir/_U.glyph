@@ -2,7 +2,7 @@ StartChar: U
 Encoding: 85 85 41
 Width: 580
 GlyphClass: 2
-Flags: HW
+Flags: W
 HStem: -28 21G<260.859 374.859>
 VStem: 435.359 111<215.016 425.5>
 AnchorPoint: "Anker-0" 290.359 544 basechar 0

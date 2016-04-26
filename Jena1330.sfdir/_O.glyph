@@ -1,12 +1,12 @@
 StartChar: O
 Encoding: 79 79 35
-AltUni2: 00039f.ffffffff.0 00041e.ffffffff.0 000555.ffffffff.0
+AltUni2: 000555.ffffffff.0 00041e.ffffffff.0 00039f.ffffffff.0
 Width: 418
 GlyphClass: 2
 Flags: HMW
 HStem: 34 55<273.986 278.486 228.486 282.986> 657 21G
 VStem: 30.9864 104<364 399 399 399> 304.986 94<158 405.5>
-AnchorPoint: "Anker-0" 151.986 740 basechar 0
+AnchorPoint: "Anker-0" 137.986 720 basechar 0
 LayerCount: 2
 Fore
 SplineSet

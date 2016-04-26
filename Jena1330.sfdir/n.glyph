@@ -6,6 +6,7 @@ GlyphClass: 2
 Flags: W
 HStem: -11 21G<83.4714 147.703 350.972 381.972> 551 20G<60.4707 91.9714 276.472 312.972>
 VStem: 48.4707 114.001<104.868 394.577> 293.472 102<143.021 380.478>
+AnchorPoint: "Anker-0" 184 566 basechar 0
 LayerCount: 2
 Fore
 SplineSet

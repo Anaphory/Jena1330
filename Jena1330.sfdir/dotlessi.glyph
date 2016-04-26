@@ -2,9 +2,9 @@ StartChar: dotlessi
 Encoding: 105 105 57
 Width: 199
 GlyphClass: 2
-Flags: HW
-HStem: 0 21G<112.5 134>
-VStem: 39 117<128.391 379.31>
+Flags: W
+HStem: 0 21G<111.805 133.305> 527 20G<52.3047 113.805>
+VStem: 38.3047 117<128.392 392.31>
 AnchorPoint: "Anker-0" 72.5 542.5 basechar 0
 LayerCount: 2
 Fore

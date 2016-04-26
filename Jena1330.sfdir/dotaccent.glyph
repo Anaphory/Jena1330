@@ -1,9 +1,10 @@
 StartChar: dotaccent
-Encoding: 10 729 146
+Encoding: 272 729 146
 Width: 215
 Flags: W
 HStem: 578.4 164<75.6446 130.61>
 VStem: 22 177
+AnchorPoint: "Anker-0" 100 562 mark 0
 LayerCount: 2
 Fore
 SplineSet
