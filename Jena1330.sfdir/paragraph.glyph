@@ -1,0 +1,11 @@
+StartChar: paragraph
+Encoding: 182 182 206
+Width: 251
+Flags: HW
+HStem: -178 21G<48 60.5> -47 103<150 223>
+VStem: -3 113<284.376 593.368>
+LayerCount: 2
+Fore
+Refer: 6 47 S 1 0 0 1 -4 -150 2
+Refer: 23 67 N 1 0 0 1 0 0 2
+EndChar
