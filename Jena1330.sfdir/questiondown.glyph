@@ -2,9 +2,9 @@ StartChar: questiondown
 Encoding: 191 191 80
 Width: 369
 GlyphClass: 2
-Flags: MW
-HStem: -30 21G 522 20G<282 293 293 305.5> 581 21G<205 209 205 205> 725 20G<233 244.5>
-VStem: 196 137.999
+Flags: W
+HStem: -30.001 21G<118.5 165> 522 20G<272 305.5> 581 21G<189.5 227.5> 725 20G<212 244.5>
+VStem: 196 137.999<382.881 489.373>
 LayerCount: 2
 Fore
 SplineSet

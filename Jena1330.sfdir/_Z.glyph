@@ -3,9 +3,9 @@ Encoding: 90 90 46
 AltUni2: 000396.ffffffff.0
 Width: 319
 GlyphClass: 2
-Flags: HMW
-HStem: -19 21G<87.064 153.564>
-VStem: 41.064 89<16.5 130> 230.064 104<437.5 570.5>
+Flags: W
+HStem: -19 21G<87.0643 153.564>
+VStem: 41.0645 88.9995<31 130> 230.064 104<437.5 570.395>
 LayerCount: 2
 Fore
 SplineSet

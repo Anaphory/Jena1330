@@ -2,9 +2,9 @@ StartChar: oe
 Encoding: 260 339 133
 Width: 512
 GlyphClass: 2
-Flags: MW
-HStem: -16 21G<377 383> 565 20G<231 243.5>
-VStem: 19 113<222 388.5> 255 116<211.5 326>
+Flags: W
+HStem: -16 27G<115.5 150 377 404.5> 565 20G<205.5 243.5 386.5 411.5>
+VStem: 19 113<255.404 389.288>
 LayerCount: 2
 Fore
 SplineSet

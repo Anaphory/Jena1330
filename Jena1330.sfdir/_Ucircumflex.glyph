@@ -2,9 +2,9 @@ StartChar: Ucircumflex
 Encoding: 219 219 102
 Width: 580
 GlyphClass: 2
-Flags: HMW
-HStem: -28 21 817.915 127
-VStem: 132.414 57 503.359 118<261 425.5>
+Flags: W
+HStem: -28 21G<260.859 374.859> 571 127
+VStem: 325.359 57<583.193 602.264> 435.359 111<215.016 425.5>
 LayerCount: 2
 Fore
 Refer: 143 710 N 1 0 0 1 192.359 -38 2

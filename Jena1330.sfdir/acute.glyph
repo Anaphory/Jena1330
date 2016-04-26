@@ -2,8 +2,8 @@ StartChar: acute
 Encoding: 180 180 78
 Width: 143
 GlyphClass: 2
-Flags: MW
-VStem: 23 9<599 607.5 597.5 608.5> 49 69
+Flags: W
+VStem: 23 9<595.423 614.297>
 AnchorPoint: "Anker-0" 62 572 mark 0
 LayerCount: 2
 Fore

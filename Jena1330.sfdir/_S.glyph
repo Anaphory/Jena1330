@@ -1,10 +1,10 @@
 StartChar: S
 Encoding: 83 83 39
-AltUni2: 00054f.ffffffff.0 000405.ffffffff.0
+AltUni2: 000405.ffffffff.0 00054f.ffffffff.0
 Width: 475
 GlyphClass: 2
-Flags: HMW
-HStem: -45 21G -8 102<283.408 295.908> 43 118<84.408 95.408> 524 138<178.908 269.908>
+Flags: W
+HStem: -45 21G<-52.5918 -40.5918> -8 102<189.908 317.012> 43 118<46.448 135.7> 524 138<179.834 269.908>
 VStem: 355.908 105<129 250.5>
 LayerCount: 2
 Fore

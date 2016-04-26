@@ -2,8 +2,8 @@ StartChar: guillemotleft
 Encoding: 171 171 77
 Width: 451
 GlyphClass: 2
-Flags: HMW
-VStem: 12.7833 84.7994 235.984 84.8
+Flags: W
+VStem: 12.7832 84.7998<259.956 324.455>
 LayerCount: 2
 Fore
 SplineSet

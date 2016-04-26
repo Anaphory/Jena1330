@@ -1,11 +1,11 @@
 StartChar: I
 Encoding: 73 73 29
-AltUni2: 0004c0.ffffffff.0 000406.ffffffff.0 000399.ffffffff.0
+AltUni2: 000399.ffffffff.0 000406.ffffffff.0 0004c0.ffffffff.0
 Width: 223
 GlyphClass: 2
-Flags: HMW
-HStem: -7 21G<113.124 144.124> 705 20G<-12.876 10.624>
-VStem: 30.624 111 83.624 82.9997
+Flags: W
+HStem: -7 21G<113.124 144.124> 705 20G<-12.876 10.624 165.124 185.124>
+VStem: 30.624 111<125.67 501.612> 83.624 83<671 706.627>
 AnchorPoint: "Anker-0" 85.9814 749.9 basechar 0
 LayerCount: 2
 Fore

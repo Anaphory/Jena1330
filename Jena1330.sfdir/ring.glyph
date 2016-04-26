@@ -3,9 +3,9 @@ Encoding: 186 730 136
 AltUni2: 0000ba.ffffffff.0
 Width: 186
 GlyphClass: 2
-Flags: HMW
-HStem: 578 7.21399 730.409 31.591
-VStem: 8 52.3057 129 34<618.001 649.5 643 644.542>
+Flags: W
+HStem: 578 7.21387<89.9688 95> 730.409 31.5908<74.2581 84.4392>
+VStem: 8 52.3057<630.673 709.131> 129 34<600.786 665.311>
 AnchorPoint: "Anker-0" 105 570.467 mark 0
 LayerCount: 2
 Fore

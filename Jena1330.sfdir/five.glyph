@@ -2,8 +2,8 @@ StartChar: five
 Encoding: 53 53 12
 Width: 378
 GlyphClass: 2
-Flags: MW
-HStem: -156 21G<140.342 166.342> 364 138<170.842 261.842>
+Flags: W
+HStem: -156 21G<140.342 166.342> 364 138<171.768 261.842>
 LayerCount: 2
 Fore
 SplineSet

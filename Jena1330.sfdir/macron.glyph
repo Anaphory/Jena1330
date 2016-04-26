@@ -2,7 +2,7 @@ StartChar: macron
 Encoding: 175 175 148
 Width: 218
 Flags: W
-HStem: 609 71<17.4924 202.755>
+HStem: 609 71<17.4924 43.5 43.5221 202.755>
 VStem: 0.259766 220.077<626.422 662.658>
 AnchorPoint: "Anker-0" 113 596 mark 0
 LayerCount: 2

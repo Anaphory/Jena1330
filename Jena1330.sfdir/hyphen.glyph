@@ -2,9 +2,9 @@ StartChar: hyphen
 Encoding: 45 45 4
 Width: 181
 GlyphClass: 2
-Flags: MW
-HStem: 146 267
-VStem: 4.55112 164.449
+Flags: W
+HStem: 146 267.001
+VStem: 4.55078 164.448
 LayerCount: 2
 Fore
 SplineSet

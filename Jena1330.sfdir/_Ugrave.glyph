@@ -2,9 +2,9 @@ StartChar: Ugrave
 Encoding: 217 217 100
 Width: 580
 GlyphClass: 2
-Flags: HMW
-HStem: -28 21
-VStem: 9.00478 150 503.359 118<261 425.5>
+Flags: W
+HStem: -28 21G<260.859 374.859>
+VStem: 201.755 150 435.359 111<215.016 425.5>
 LayerCount: 2
 Fore
 Refer: 142 96 N 1 0 0 1 176.755 -8.6 2

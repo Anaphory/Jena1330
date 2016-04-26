@@ -1,10 +1,10 @@
 StartChar: X
 Encoding: 88 88 44
-AltUni2: 000425.ffffffff.0 0003a7.ffffffff.0
+AltUni2: 0003a7.ffffffff.0 000425.ffffffff.0
 Width: 501
 GlyphClass: 2
-Flags: HMW
-HStem: -148 91<25.7569 108.257> -34 21G<360.757 396.757 360.757 360.757> 502 111<-43.7428 96.7569> 646 20G
+Flags: W
+HStem: -148 91<5.4081 108.013> -34 21G<348.758 396.758> 502 111<-43.7422 96.7579> 646 20G<334.758 349.758>
 LayerCount: 2
 Fore
 SplineSet
