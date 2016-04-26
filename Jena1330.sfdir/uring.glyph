@@ -1,5 +1,5 @@
 StartChar: uring
-Encoding: 183 367 134
+Encoding: 261 367 134
 Width: 452
 GlyphClass: 2
 Flags: W
@@ -61,7 +61,7 @@ SplineSet
  -2.6582 470 51.3408 530 90.3408 546 c 1
  164.342 533 169.342 390 169.342 277 c 2
 EndSplineSet
-LCarets2: 1 0 
+LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 letters with rings" u uni030A
 Substitution2: "Single Substitution lookup 0 subtable" vring
 EndChar
