@@ -1,5 +1,6 @@
 StartChar: ring
-Encoding: 263 730 136
+Encoding: 186 730 136
+AltUni2: 0000ba.ffffffff.0
 Width: 186
 GlyphClass: 2
 Flags: HMW
