@@ -39,6 +39,7 @@ SplineSet
  37.001 140 38.001 146 38.001 152 c 2
  38.001 298 l 2
 EndSplineSet
+Validated: 1
 Substitution2: "'medi' Medial Forms in Latin lookup-1" f.med
 Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" f.med
 EndChar

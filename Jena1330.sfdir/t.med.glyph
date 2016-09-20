@@ -33,5 +33,6 @@ SplineSet
  27 487.525390625 85 520.7890625 136 562.369140625 c 5
  153 556.1328125 145 506.236328125 172 506.236328125 c 4xdc
 EndSplineSet
+Validated: 1
 Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" t
 EndChar

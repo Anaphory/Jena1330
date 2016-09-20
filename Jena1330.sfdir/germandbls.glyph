@@ -46,5 +46,6 @@ SplineSet
  323.740234375 233 251.740234375 221 251.740234375 263 c 1
  287.740234375 365 353.740234375 418 367.740234375 527 c 1xc0
 EndSplineSet
+Validated: 1
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs s
 EndChar

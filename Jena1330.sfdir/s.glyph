@@ -41,7 +41,7 @@ SplineSet
  97.2607 426 103.261 376 92.2607 353 c 1
  92.2607 342 131.261 334 165.261 334 c 0
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" longs
 Substitution2: "'medi' Medial Forms in Latin lookup-1" longs
 Substitution2: "'hist' Historical Forms in Latin lookup-1" longs

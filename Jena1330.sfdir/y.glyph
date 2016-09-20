@@ -42,6 +42,7 @@ SplineSet
  334.666 432 348.666 412 359.666 412 c 1
  359.666 413 l 1
 EndSplineSet
+Validated: 1
 Kerns2: 68 0 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"
 Substitution2: "'hist' Historical Forms in Latin lookup-1" ydotaccent
 EndChar

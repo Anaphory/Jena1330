@@ -37,6 +37,7 @@ SplineSet
  237 297 250 301 250 301 c 5
  249 299 244 294 240 294 c 4
 EndSplineSet
+Validated: 1
 Kerns2: 74 -7 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"
 Substitution2: "'medi' Medial Forms in Latin lookup-1" t.med
 Substitution2: "'init' Initiale Formen in Latin lookup 2 subtable" t.med

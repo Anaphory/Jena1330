@@ -27,5 +27,6 @@ SplineSet
  112.655 358 122.654 310 130.654 268 c 4
  139.654 220 158.654 113 202.654 113 c 4
 EndSplineSet
+Validated: 1
 Kerns2: 59 -75 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0" 56 -70 "'kern' Horizontales Kerning in Latin lookup 1 per glyph data 0"
 EndChar

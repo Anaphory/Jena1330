@@ -44,6 +44,7 @@ SplineSet
  -3.259765625 515 16.740234375 537 26.740234375 545 c 0
  97.7392578125 598 156.739257812 682 251.739257812 757 c 0xe0
 EndSplineSet
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'liga' Standard Ligatures in Latin lookup 4 subtable" longs longs
 Substitution2: "'fina' Wortendeformen in Latin lookup 5 subtable" germandbls
